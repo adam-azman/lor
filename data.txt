@@ -1,0 +1,12 @@
+CREATE TABLE students (
+    registration_number VARCHAR(50) PRIMARY KEY,
+    email_id VARCHAR(100) UNIQUE NOT NULL,
+    student_name VARCHAR(100) NOT NULL,
+    gender VARCHAR(10),
+    mobile_number VARCHAR(15),
+    date_of_birth DATE NOT NULL
+);
+
+INSERT INTO students (registration_number, email_id, student_name, gender, mobile_number, date_of_birth)
+VALUES 
+('2023012345', 'adam@google.com', 'adam', 'Male', '9876543210', '2000-05-15');

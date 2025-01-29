@@ -1,4 +1,4 @@
-package edu.manipal.lorbackend;
+package edu.manipal.mit.cse.lor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

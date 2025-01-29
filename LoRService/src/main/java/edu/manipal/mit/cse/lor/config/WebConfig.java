@@ -1,4 +1,4 @@
-package edu.manipal.lorbackend.config;
+package edu.manipal.mit.cse.lor.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

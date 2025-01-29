@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>edu.manipal</groupId>
-	<artifactId>lorbackend</artifactId>
+	<artifactId>LoRService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lorbackend</name>
 	<description>website for lor generation</description>

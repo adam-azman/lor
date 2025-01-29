@@ -10,3 +10,5 @@ CREATE TABLE students (
 INSERT INTO students (registration_number, email_id, student_name, gender, mobile_number, date_of_birth)
 VALUES 
 ('2023012345', 'adam@google.com', 'adam', 'Male', '9876543210', '2000-05-15');
+
+http://localhost:8080/api/students/validate?registrationNumber=2023012345&emailId=adam@gmail.com&dateOfBirth=2000-05-15

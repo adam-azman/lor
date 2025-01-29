@@ -1,6 +1,6 @@
-package edu.manipal.lorbackend.repository;
+package edu.manipal.mit.cse.lor.repository;
 
-import edu.manipal.lorbackend.entity.Student;
+import edu.manipal.mit.cse.lor.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package edu.manipal.lorbackend;
+package edu.manipal.mit.cse.lor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

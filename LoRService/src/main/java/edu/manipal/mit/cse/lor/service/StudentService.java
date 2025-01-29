@@ -1,7 +1,7 @@
-package edu.manipal.lorbackend.service;
+package edu.manipal.mit.cse.lor.service;
 
-import edu.manipal.lorbackend.entity.Student;
-import edu.manipal.lorbackend.repository.StudentRepository;
+import edu.manipal.mit.cse.lor.entity.Student;
+import edu.manipal.mit.cse.lor.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

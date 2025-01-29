@@ -1,4 +1,4 @@
-package edu.manipal.lorbackend.entity;
+package edu.manipal.mit.cse.lor.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

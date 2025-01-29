@@ -1,7 +1,7 @@
-package edu.manipal.lorbackend.controller;
+package edu.manipal.mit.cse.lor.controller;
 
-import edu.manipal.lorbackend.entity.Student;
-import edu.manipal.lorbackend.service.StudentService;
+import edu.manipal.mit.cse.lor.entity.Student;
+import edu.manipal.mit.cse.lor.service.StudentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

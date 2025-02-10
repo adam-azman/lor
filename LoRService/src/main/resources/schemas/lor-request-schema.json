@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "registrationNumber": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+    "studentName": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 50
+    },
+    "emailId": {
+      "type": "string",
+      "format": "email"
+    },
+    "mobileNumber": {
+      "type": "string",
+      "pattern": "^[0-9]{10}$"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date"
+    },
+    "linkedinId": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": ["registrationNumber", "studentName", "emailId", "mobileNumber", "dateOfBirth"]
+}
